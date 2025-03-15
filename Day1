@@ -1,1 +1,32 @@
+Day 1 
+Q1:
+Sort Tuples by Sum of Elements
+You are given a list of tuples, where each tuple contains exactly two integers.
+Write a function that sorts this list in ascending order based on the sum of the integers in each tuple and returns the sorted list.
+Function Signature
+def sort_by_tuple_sum(Ist: list(tuple)) -> list(tuple):
+pass
+Test Cases
+Input: (3, 1), (2, 2), (5, -1), (0, 0))
+Output: (0, 0), (3, 1), (2, 2), (5, -1)]
+Input: [(7, 3), (1, 2), (4, 5), (0, 1)] Output: (0, 1), (1, 2), (4, 5), (7, 3)]
+input: (8, -3), (1, 1), (2, O), (5, 5), (3, 2))
+Output: [(1, 1), (2,0), (8,-3), (3, 2), (5, 5)]
 
+
+Question 2: Filter Strings Based on Criteria
+You are given a list of strings and two integers k and m.
+Write a function that returns a new list containing only those strings that satisfy both of the following conditions:
+1. The length of the string is greater than or equal to k.
+2. The string contains at least m vowels (vowels are 'a', 'e', i', 'o', 'u').
+The output should maintain the original order of appearance in the input list.
+Function Input
+A list Ist of n strings.
+* An integer k representing the minimum length of strings to include.
+* An integer m representing the minimum number of vowels a string should have to be included.
+Test Cases
+Input: ["apple", "hi", "world", "yes", "python"], k= 4, m = 2
+Output: ["apple"]
+Input: ["education", "science", "art", "mathematics"], k = 5, m= 3 pass
+Output: ["education", "science", "mathematics"]
+Function Signature def filter strings(Ist: list(str, k: int, m: int) -> list[str]:
