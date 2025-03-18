@@ -13,18 +13,4 @@ class Solution:
         return products
 
 
-    #     def product_array_except_self(nums):
-    # n = len(nums)
-    # result = []
-    
-    # for i in range(n):
-    #     product = 1  # Initialize the product 
-        
-    #     for j in range(n):
-    #         if i != j:
-    #             product *= nums[j]
-        
-    #     # Append product to result
-    #     result.append(product)
-    
-    # return result
+   
