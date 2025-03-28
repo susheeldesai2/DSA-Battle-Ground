@@ -1,3 +1,12 @@
+"""Problem Statement:
+You're given a nested list of dictionaries, where each dictionary represents a student's
+performance in multiple subjects across multiple semesters. Write a code that calculates the
+total marks in all semesters only for those students who scored more than 80 in every
+subject of every semester.
+"""
+
+
+
 students = [
     {
         'name': 'Amit',
