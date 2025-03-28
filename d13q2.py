@@ -1,3 +1,12 @@
+"""You’re given a nested list where each element represents a city. Each city contains areas,
+and each area has a list of temperature readings for the past 7 days. Find the city name(s)
+where all areas had an average temperature above 30°C over the week. Return a list of such
+city names using nested list and dictionary comprehension.
+"""
+
+
+
+
 cities = [
     {
         'name': 'Mumbai',
